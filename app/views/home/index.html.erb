@@ -40,7 +40,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
+      <a class="navbar-brand topnav" href="#">TouchTap Studios</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -49,7 +49,10 @@
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#services">People</a>
+        </li>
+        <li>
+          <a href="#podcast">Podcast</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -62,35 +65,61 @@
 </nav>
 
 
-<!-- Header -->
-<a name="about"></a>
-<div class="intro-header">
-  <div class="container">
+
+
+<div class="homepage-hero-module">
+  <div class="video-container">
+    <div class="filter"></div>
+
+    <video autoplay loop class="fillWidth">
+      <source src="<%= video_path('Working-Space.mp4') %>" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+      <source src="<%= video_path('Working-Space.webm') %>" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+    </video>
+    <div class="poster hidden">
+      <img src="<%= image_path('Working-Space.jpg') %>" alt="">
+    </div>
 
     <div class="row">
       <div class="col-lg-12">
         <div class="intro-message">
-          <h1>Landing Page</h1>
-          <h3>A Template by Start Bootstrap</h3>
+          <h1>Welcome to TouchTap Studios</h1>
+          <h3>We are a group of developers working on crazy side projects and contributing to open source projects!<br> Check it out.</h3>
           <hr class="intro-divider">
-          <ul class="list-inline intro-social-buttons">
+          <ul class="list-inline intro-social-buttons" style="text-align: center;">
             <li>
-              <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-            </li>
-            <li>
-              <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-            </li>
-            <li>
-              <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+              <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"> </i> <span class="network-name">Github</span></a>
             </li>
           </ul>
         </div>
       </div>
     </div>
+  </div>
+
+</div>
+
+
+
+<!-- Header -->
+<a name="about"></a>
+<div class="intro-header">
+  <div class="container">
+    <!--<div class="row">-->
+      <!--<div class="col-lg-12">-->
+        <!--<div class="intro-message">-->
+          <!--<h1>Welcome to TouchTap Studios</h1>-->
+          <!--<h3>Hi there</h3>-->
+          <!--<hr class="intro-divider">-->
+          <!--<ul class="list-inline intro-social-buttons">-->
+            <!--<li>-->
+              <!--<a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>-->
+            <!--</li>-->
+          <!--</ul>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
 
   </div>
   <!-- /.container -->
-
 </div>
 <!-- /.intro-header -->
 
