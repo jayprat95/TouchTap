@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
+@import url(http://nicholastodor.com/sf/usesf.css);
 .homepage-hero-module {
   border-right: none;
   border-left: none;
@@ -49,11 +49,13 @@
   h1 {
     text-align: center;
     color: #f8f8f8;
+    font-family: 'San Francisco Display Light', sans-serif;
   }
 
   h3 {
     text-align: center;
     color: #f8f8f8;
+    font-family: 'San Francisco Text', sans-serif;
   }
 
 
